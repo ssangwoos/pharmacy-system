@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS products (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  company TEXT NOT NULL,
+  product_name TEXT NOT NULL,
+  package_unit TEXT NOT NULL,
+  contact TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
